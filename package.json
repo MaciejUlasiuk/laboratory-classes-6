@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "electron": "electron main.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +16,7 @@
     "laboratory-classes-6": "file:"
   },
   "devDependencies": {
+    "electron": "^29.4.6",
     "nodemon": "^3.1.9"
   }
 }
-
